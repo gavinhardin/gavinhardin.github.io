@@ -1,15 +1,15 @@
 # Site settings
-title: Gavin's Personal Website
+title: Gavin Hardin
 description: A website showcasing my personal work and interests
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://gavinhardin.me" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
 # User settings
 username: Gavin Hardin
-user_description: I'm a graduating student in computer science from NCSU. In my coursework, I've learned how to design, build, test, and maintain software systems, and would love to prove it to you. My interests range from machine learning to database management, and I believe I can apply myself to wherever I'm needed. I feel comfortable working in skilled groups, but have taken on the mantle of leading projects in the past and have no problem with taking on the responsibility again.
-user_title: Software Developer
+user_description: I'm a graduating student in computer science from NCSU. In my coursework, I've learned how to design, build, test, and maintain software systems, and would love to prove it to you. My interests range from machine learning to database management, and I believe I can apply myself to wherever I'm needed. I feel comfortable working in skilled groups, but have taken on the mantle of leading projects in the past and am always ready to take on that responsibility again.
+user_title: Junior Software Developer
 email: gavinchardin@gmail.com
-github_username:  gavinhardin
+github_username: gavinhardin
 
 # Google-analytics
 google-analytics:
