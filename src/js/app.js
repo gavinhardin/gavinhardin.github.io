@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     "fpsLimit": 60,
     "particles": {
       "number": {
-        "value": 30,
+        "value": 45,
         "density": {
           "enable": true,
           "area": 800
@@ -17,14 +17,11 @@ document.addEventListener("DOMContentLoaded", function () {
         "value": "#ffffff"
       },
       "shape": {
-        "type": "polygon",
-        "polygon": {
-          "sides": 5
-        }
+        "type": "circle"
       },
       "opacity": {
-        "value": 0.5,
-        "random": false,
+        "value": 0.75,
+        "random": true,
         "animation": {
           "enable": false,
           "speed": 1,
@@ -34,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function () {
       },
       "size": {
         "value": 3,
-        "random": true,
+        "random": false,
         "animation": {
           "enable": false,
           "speed": 19.18081918081918,
@@ -51,7 +48,7 @@ document.addEventListener("DOMContentLoaded", function () {
       },
       "move": {
         "enable": true,
-        "speed": 4,
+        "speed": 2,
         "direction": "none",
         "random": true,
         "straight": false,
