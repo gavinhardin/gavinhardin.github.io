@@ -13,7 +13,7 @@
 
 .user {
   text-align: center;
-  font-size: 60px;
+  font-size: 80px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -30,4 +30,12 @@
 .user-details {
   text-align: center;
   margin: 5px auto;
+  p {
+    font-size: 18px;
+  }
+}
+
+.svg-devicon {
+  width: 80px;
+  height: 80px;
 }
