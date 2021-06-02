@@ -3,18 +3,25 @@
 </div>
 <div class="user-projects">
   <div class="images-right">
-    <img alt="mountains" src="{{ "/assets/img/mountains.jpg" | prepend: site.baseurl }}" />
+    <img alt="Kickstarter logo" src="{{ "/assets/img/kickstarter_logo_2019.png" | prepend: site.baseurl }}" />
   </div>
   <div class="contents">
-    <h3> Project Title </h3>
+    <h3> Predicting Kickstarter Success with Ensemble Classfication </h3>
     <ul>
-      <li> Featured Skills</li>
+      <li>Tools: Python, Sklearn, Pandas, Gensim, Keras, Matplotlib</li>
+      <li>Concepts: Natural Language Processing, Neural Networks, Discretization, Data Processing</li>
     </ul>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <a class="project-link" href="#">Check it out</a>
+    <p>Leading a small group of peers, we proposed and developed a heterogeneous ensemble classifier to 
+    predict the success of a given Kickstarter project using natural language processing (NLP) and trained neural 
+    networks. We used Doc2Vec to generate feature vectors for projects' names, which were then used by a 
+    logistic regression classifier to predict the success category a project would fall under. Other attributes 
+    of the project (e.g., fundraising time, goal amount, project category) were fed into a multilayer perceptron 
+    to generate another prediction of success, and then weighted probability averaging was performed to generate 
+    a final prediction using the predictions of each separate classifier.</p>
+    <a class="project-link" href="https://github.com/gavinhardin/kickstarter-ensemble">Read the results</a>
   </div>
 </div>
-<div class="user-projects">
+<!-- <div class="user-projects">
   <div class="images-left">
     <img alt="mountains" src="{{ "/assets/img/skate.jpg" | prepend: site.baseurl }}" />
   </div>
@@ -26,4 +33,4 @@
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
     <a class="project-link" href="#">Check it out</a>
   </div>
-</div>
+</div> -->
